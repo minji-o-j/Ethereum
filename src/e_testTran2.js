@@ -1,0 +1,17 @@
+var hqaccount="0x52cadd19f40f5f5f544f33fde2f8fc118862e4f9";
+console.log('hq account balance: ', eth.getBalance(hqaccount));
+console.log('my account balance: ', eth.getBalance(eth.coinbase));
+var ba1=eth.getBalance(hqaccount);
+console.log('block number: ', eth.blockNumber);
+var t=eth.sendTransaction({from:eth.accounts[0], to:hqaccount, value:10000});
+console.log('gas price',eth.gasPrice);
+console.log('transactionHash: ',t);
+console.log('...mining start');
+miner.start(1);admin.sleepBlocks(1);miner.stop();
+console.log('mining done...\n');
+console.log('block number: ', eth.blockNumber);
+console.log('hq account balance: ', eth.getBalance(hqaccount));
+console.log('my account balance: ', eth.getBalance(eth.coinbase));
+var ba2=eth.getBalance(hqaccount);
+console.log('\nincreased balance: ',ba2-ba1);
+console.log('gasUsed: ',eth.getTransactionReceipt(t).gasUsed);
