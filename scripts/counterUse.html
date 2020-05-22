@@ -1,0 +1,17 @@
+<!doctype>
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/web3@1.2.7/dist/web3.min.js"></script>
+<script type="text/javascript">
+    var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8445"));
+    function powerOf2(uint input) public pure returns (uint){
+        document.getElementById('web3ver').innerText = 2**32;
+    }
+</script>
+</head>
+<body>
+    <h1>Result of 2^32</h1>
+    <div></div>
+    <div id="web3ver"></div>
+</body>
+</html>

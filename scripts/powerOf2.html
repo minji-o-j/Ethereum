@@ -1,0 +1,21 @@
+<!doctype>
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/web3@1.2.7/dist/web3.min.js"></script>
+<script type="text/javascript">
+    var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8446"));
+    function result(){
+        var shelloContract = new web3.eth.Contract([{"constant":true,"inputs":[{"name":"input","type":"uint256"}],"name":"powerOf2","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"pure","type":"function"}],
+                                      "0xBa0b7CC386251Cd4744446B023ce67FA81b4C52d");
+        shelloContract.methods.powerOf2(32).call().then(res=>
+                                                     document.getElementById('powerOf2').innerText="The result of 2^32: "+res);
+    }
+</script>
+</head>
+<body>
+    <h1>powerOf2</h1>
+    <button type="button" onClick="result();">result of 2^32</button>
+    <div></div>
+    <div id="powerOf2"></div>
+</body>
+</html>
