@@ -1,2 +1,4 @@
-# BlockChain
-오픈API 블록체인 수업
+# Ethreum
+---
+## 겪었던 오류와 해결법
+https://github.com/minji-o-j/Ethereum/issues?q=is%3Aissue+is%3Aclosed
