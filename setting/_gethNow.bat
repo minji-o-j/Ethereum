@@ -1,0 +1,1 @@
+geth --identity "minji" --unlock 0 --datadir .\eth --rpc --rpcaddr "localhost" --rpcport "8445" --rpccorsdomain "*" --rpcapi "admin, db, eth, debug, miner, net, shh, txpool, personal, web3" --ws --wsaddr="localhost" --wsport "8446" --wsorigins="*" --wsapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --port "38445" --networkid 33
