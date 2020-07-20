@@ -1,11 +1,15 @@
 # Ethreum
 
-- Ethereum version: 0.4.25, 0.5.1, 0.6(final exam)
+- Ethereum version: 0.4.25, 0.5.1, 0.6.13(?_확인후수정_)(final exam)
 
+---
+## 강의자료
+- https://github.com/smu405/e
 ---
 
 ## .
 - gas를 줄일수 있으면 줄이는 것이 좋다!
+- 반복문이나 연산을 많이하면 gas 비용이 많이 발생
 
 ---
 ## 겪었던 오류와 해결법
