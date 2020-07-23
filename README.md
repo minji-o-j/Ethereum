@@ -37,5 +37,7 @@
 ## 해결 못한 오류
 ### ParserError
 - Expected primary expression. 
+  - [Link](https://github.com/minji-o-j/Ethereum/issues/18)
 ### 기타 Error
 - Provided address "undefined" is invalid, the capitalization checksum test failed, or its an indrect IBAN address which can't be converted. 
+  - [Link](https://github.com/minji-o-j/Ethereum/issues/8)
