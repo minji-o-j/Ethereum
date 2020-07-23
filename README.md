@@ -32,3 +32,10 @@
   - [Link](https://github.com/minji-o-j/Ethereum/issues/14)
 - Returned values aren't valid, did it run Out of Gas?
   - [Link](https://github.com/minji-o-j/Ethereum/issues/16)
+
+---
+## 해결 못한 오류
+### ParserError
+- Expected primary expression. 
+### 기타 Error
+- Provided address "undefined" is invalid, the capitalization checksum test failed, or its an indrect IBAN address which can't be converted. 
