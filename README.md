@@ -1,5 +1,5 @@
 # Ethreum
-
+<img alt="Issues" src="https://img.shields.io/github/issues/minji-o-j/Ethereum?color=0088ff" />   
 - Ethereum version: 0.4.25, 0.5.1, 0.6.13(?_확인후수정_)(final exam)
 
 ---
