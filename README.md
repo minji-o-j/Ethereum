@@ -25,8 +25,8 @@
 - The contract code couldn't be stored, please check your gas limit.
   - [Link](https://github.com/minji-o-j/Ethereum/issues/5)  
 - Returned error: intrinsic gas too low at Object.ErrorResponse
-  - [Link](https://github.com/minji-o-j/Ethereum/issues/7)
--Invalid JSON RPC response: "" at Object.InvalidResponse 
+  - [Link](https://github.com/minji-o-j/Ethereum/issues/7)  
+- Invalid JSON RPC response: "" at Object.InvalidResponse 
   - [Link](https://github.com/minji-o-j/Ethereum/issues/9)
 - connection not open on send()
   - [Link](https://github.com/minji-o-j/Ethereum/issues/14)
