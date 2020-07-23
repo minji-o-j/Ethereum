@@ -1,4 +1,5 @@
-# Ethreum, 
+# Ethreum, Solidity
+
 <img alt="Issues" src="https://img.shields.io/github/issues/minji-o-j/Ethereum?color=0088ff" />   
 
 - Ethereum version: 0.4.25, 0.5.1, 0.6.13(?_확인후수정_)(final exam)
@@ -22,6 +23,12 @@
 - Returned error: VM Exception while processing transaction: out of gas
   - [Link](https://github.com/minji-o-j/Ethereum/issues/4)
 - The contract code couldn't be stored, please check your gas limit.
-  - [Link](https://github.com/minji-o-j/Ethereum/issues/5)
+  - [Link](https://github.com/minji-o-j/Ethereum/issues/5)  
 - Returned error: intrinsic gas too low at Object.ErrorResponse
   - [Link](https://github.com/minji-o-j/Ethereum/issues/7)
+-Invalid JSON RPC response: "" at Object.InvalidResponse 
+  - [Link](https://github.com/minji-o-j/Ethereum/issues/9)
+- connection not open on send()
+  - [Link](https://github.com/minji-o-j/Ethereum/issues/14)
+- Returned values aren't valid, did it run Out of Gas?
+  - [Link](https://github.com/minji-o-j/Ethereum/issues/16)
