@@ -21,11 +21,44 @@ _gethNow.bat
 
 ### geth 콘솔 열기(또다른 cmd)
 ```py
-
+geth attach http://localhost:8445
 ```
 
+### 계정 확인하기 (geth 콘솔)
+```py
+eth.accounts
+```
 
+### 계정 확인하기 (jupyter notebook)
+```py
+!geth -exec eth.accounts attach http://localhost:8445
+```
 
+### 잔액 확인하기 (geth 콘솔)
+```py
+eth.getBalance(eth.accounts[0]);
+```
+
+### 노드 정보 확인하기 (geth 콘솔)
+```py
+admin.nodeinfo
+```
+
+### 충전하기 (mining) (geth 콘솔)
+```py
+miner.start()
+miner.stop()
+```
+
+### 계정 확인하기 (geth 콘솔)
+```py
+eth.accounts
+```
+
+### 계정 확인하기 (geth 콘솔)
+```py
+eth.accounts
+```
 ---
 ## 겪었던 오류와 해결법
 - [해결한 오류](https://github.com/minji-o-j/Ethereum/issues?q=is%3Aissue+is%3Aclosed)
