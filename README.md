@@ -14,48 +14,55 @@
 - 오류의 절반은 버전 문제인 경우가 많다..
 ---
 ## 자주 사용하는 명령어
-### geth 접속하기 (cmd)
+#### geth 접속하기 (cmd)
 ```py
 _gethNow.bat
 ```
+<br>
 
-### geth 콘솔 열기(또다른 cmd)
+#### geth 콘솔 열기(또다른 cmd)
 ```py
 geth attach http://localhost:8445
 ```
+<br>
 
-### 계정 확인하기 (geth 콘솔)
+#### 계정 확인하기 (geth 콘솔)
 ```py
 eth.accounts
 ```
+<br>
 
-### 계정 확인하기 (jupyter notebook)
+#### 계정 확인하기 (jupyter notebook)
 ```py
 !geth -exec eth.accounts attach http://localhost:8445
 ```
+<br>
 
-### 잔액 확인하기 (geth 콘솔)
+#### 잔액 확인하기 (geth 콘솔)
 ```py
 eth.getBalance(eth.accounts[0]);
 ```
+<br>
 
-### 노드 정보 확인하기 (geth 콘솔)
+#### 노드 정보 확인하기 (geth 콘솔)
 ```py
 admin.nodeinfo
 ```
+<br>
 
-### 충전하기 (mining) (geth 콘솔)
+#### 충전하기 (mining) (geth 콘솔)
 ```py
 miner.start()
 miner.stop()
 ```
 
-### 계정 확인하기 (geth 콘솔)
+#### 계정 확인하기 (geth 콘솔)
 ```py
 eth.accounts
 ```
+<br>
 
-### 계정 확인하기 (geth 콘솔)
+#### 계정 확인하기 (geth 콘솔)
 ```py
 eth.accounts
 ```
