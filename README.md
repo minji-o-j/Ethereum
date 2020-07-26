@@ -19,7 +19,7 @@
 _gethNow.bat
 ```
 
-#### geth 콘솔 열기(또다른 cmd)
+#### geth 콘솔 열기(새로운 cmd), geth 접속한 상태로 해야함
 ```py
 geth attach http://localhost:8445
 ```
@@ -50,15 +50,40 @@ miner.start()
 miner.stop()
 ```
 
-#### 계정 확인하기 (geth 콘솔)
+#### 트랜잭션 확인 (geth 콘솔)
 ```py
-eth.accounts
+eth.pendingTransactions
 ```
-<br>
 
-#### 계정 확인하기 (geth 콘솔)
+#### authentication 오류 뜰 때 (geth 콘솔)
 ```py
-eth.accounts
+personal.unlockAccount(eth.coinbase); #하고 비밀번호 입력
+``` 
+
+#### mining 하기(pending 해소) (geth 콘솔)
+```py
+miner.start(1);admin.sleepBlocks(1);miner.stop();
+#sleepBlocks(숫자)를 조절해준다.
+```
+
+#### 가나슈(ganache) 실행하기 (새로운 cmd)
+```py
+node_modules.bin\ganache-cli.cmd -p 8345
+```
+
+#### 트랜잭션 확인 (geth 콘솔)
+```py
+eth.pendingTransactions
+```
+
+#### .js 파일 node로 실행하기 (새로운 cmd)
+```py
+C:\Users\minji\Code\201810808>node src/OrderEventUse.js
+# 학번경로 폴더에서
+
+node js파일주소
+
+# 이렇게 입력한다.
 ```
 ---
 ## 겪었던 오류와 해결법
