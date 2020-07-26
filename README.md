@@ -8,11 +8,24 @@
 ## 강의자료
 - https://github.com/smu405/e
 ---
-
 ## 참고사항
 - gas를 줄일수 있으면 줄이는 것이 좋다!
 - 반복문이나 연산을 많이하면 gas 비용이 많이 발생
 - 오류의 절반은 버전 문제인 경우가 많다..
+---
+## 자주 사용하는 명령어
+### geth 접속하기 (cmd)
+```py
+_gethNow.bat
+```
+
+### geth 콘솔 열기(또다른 cmd)
+```py
+
+```
+
+
+
 ---
 ## 겪었던 오류와 해결법
 - [해결한 오류](https://github.com/minji-o-j/Ethereum/issues?q=is%3Aissue+is%3Aclosed)
