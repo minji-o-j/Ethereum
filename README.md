@@ -39,11 +39,6 @@ eth.accounts
 eth.getBalance(eth.accounts[0]);
 ```
 
-#### 노드 정보 확인하기 (geth 콘솔)
-```py
-admin.nodeinfo
-```
-
 #### 충전하기 (mining) (geth 콘솔)
 ```py
 miner.start()
@@ -69,11 +64,6 @@ miner.start(1);admin.sleepBlocks(1);miner.stop();
 #### 가나슈(ganache) 실행하기 (새로운 cmd)
 ```py
 node_modules.bin\ganache-cli.cmd -p 8345
-```
-
-#### 트랜잭션 확인 (geth 콘솔)
-```py
-eth.pendingTransactions
 ```
 
 #### .js 파일 node로 실행하기 (새로운 cmd)
