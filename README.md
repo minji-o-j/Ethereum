@@ -2,7 +2,10 @@
 
 ![image](https://img.shields.io/github/issues/minji-o-j/Ethereum?color=0088ff&style=flat-square)
 
-- Ethereum version: 0.4.25, 0.5.1, 0.6.13(?_확인후수정_)(final exam)
+- Ethereum version
+  - 0.4.25
+  - 0.5.1
+  - 0.6.10(final exam)
 
 ---
 ## 강의자료
